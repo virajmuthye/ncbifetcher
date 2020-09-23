@@ -1,0 +1,6 @@
+
+
+#!/usr/bin/env python
+
+import ncbifetcher
+print(ncbifetcher.joke())
