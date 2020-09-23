@@ -1,4 +1,4 @@
 import ncbifetcher
 
 def main():
-    print(ncbifetcher.joke())
+    print(ncbifetcher.main())

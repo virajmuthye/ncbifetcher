@@ -1,3 +1,4 @@
 
 
-from .joke import joke
+
+from .main import main

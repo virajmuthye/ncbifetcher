@@ -19,7 +19,7 @@ setuptools.setup(
         'biopython',
     ],
     entry_points = {
-        'console_scripts': ['ncbifethcer=ncbifetcher.command_line:main'],
+        'console_scripts': ['ncbifetcher=ncbifetcher.command_line:main'],
     },
     classifiers=[
         "Programming Language :: Python :: 3",
