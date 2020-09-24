@@ -5,7 +5,7 @@ from shutil import copy
 from Bio import SeqIO
 from Bio.Align.Applications import MafftCommandline
 
-from indexer import get_query_from_indexes
+from ncbifetch.indexer import get_query_from_indexes
 
 
 # Pulls all of the fastas from the query into a folder

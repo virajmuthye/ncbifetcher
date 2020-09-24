@@ -6,8 +6,8 @@ import glob
 import os
 
 from Bio import Entrez
-from writer import battery_writer
-from indexer import reset_indexes
+from ncbifetch.writer import battery_writer
+from ncbifetch.indexer import reset_indexes
 
 
 # TODO - Have the user to input their email

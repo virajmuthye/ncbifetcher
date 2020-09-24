@@ -5,7 +5,7 @@ __email__ = "bwinnett12@gmail.com"
 import os
 from Bio import SeqIO, Seq
 from Bio.Data.CodonTable import TranslationError
-from indexer import *
+from ncbifetch.indexer import *
 
 # TODO - This a list of things to fix for this file
 # Add genome to battery

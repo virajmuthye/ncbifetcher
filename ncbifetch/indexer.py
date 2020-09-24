@@ -167,9 +167,9 @@ def get_query_from_indexes():
 # A helper method for simplifying all of the other methods
 def open_clarify(index):
     if index.lower() == "species":
-        return "./Indexes/species.lst"
+        return "./indexes/species.lst"
     elif index.lower() == "genes":
-        return "./Indexes/genes.lst"
+        return "./indexes/genes.lst"
     else:
         return False
 
