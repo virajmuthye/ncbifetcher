@@ -62,7 +62,7 @@ def main():
     delete_folder_contents()
 
     # Edit this one to change search query
-    test_genes = ['txid36190[Organism] mitochondria']
+    test_genes = ['NC_010201.1']
 
     # Edit this one to change location of storage (default ./storage)
     output_folder = "./storage/"
